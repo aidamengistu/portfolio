@@ -752,14 +752,15 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 80px;
     outline: 0;
     color: #fff;
-    background-color: #2B0502;
+    background-color: #DAA72A;
+    /*background-color: #2B0502;*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -768,7 +769,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #DAA72A;
+    background-color: #2B0502;
 }
 
 .btn:focus,
@@ -880,4 +881,12 @@ body {
     text-align: center;
     list-style-type: none;
     font-weight: bolder;
+}
+
+.profilePhoto img {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  border: solid 4px #DAA72A;
 }
